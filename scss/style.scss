@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+
+}
+
+body{
+    font-family: Monteserrat;
+}
+/*  */
+
+.reg{
+    width: 300px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    &__title{
+        color: #979797;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    &__form{
+        width: 220px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+
+    }
+    &__input{
+        width: 100%;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 0px 5px 2px rgba(0, 29, 108, 0.07);
+        border: none;
+        padding: 13px 20px;
+        margin-bottom: 15px;
+        &::placeholder{
+            color:  #7b00ff;
+        }
+    
+    }
+    &__btn{
+        color: #fdfdff;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 15px 90px;
+        background-color: #8dd83d;
+    }
+    &__link{
+        color: rgba(0, 0, 0, 0.50);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
